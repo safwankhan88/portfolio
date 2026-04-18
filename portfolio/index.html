@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Safwan Pathan — Web Developer</title>
+
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- STYLESHEET -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- AMBIENT GLOW -->
+<div class="ambient ambient-1"></div>
+<div class="ambient ambient-2"></div>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" onclick="closeMobile()">✕</button>
+  <a href="#about" onclick="closeMobile()">About</a>
+  <a href="#projects" onclick="closeMobile()">Projects</a>
+  <a href="#resume" onclick="closeMobile()">Resume</a>
+  <a href="#contact" onclick="closeMobile()">Contact</a>
+  <a href="https://wa.me/918408802188" class="btn-primary" style="font-size:16px">Hire Me 🚀</a>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">PATHAN SAFWANKHAN FIROZKHAN<span>.</span></div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="https://wa.me/918408802188" class="nav-cta">Hire Me</a>
+  <div class="hamburger" onclick="openMobile()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="badge">
+    <span class="badge-dot"></span>
+    Available for freelance work
+  </div>
+ 
+  <div class="profile-wrap">
+    <div class="profile-ring">
+      <div class="ring-inner"></div>
+      <div class="img-container">
+        <img src="safwan.jpg (2).png" alt="Safwan Pathan">
+      </div>
+    </div>
+  </div>
+
+  <H1> 
+    <span>SAFWAN PATHAN</span>
+  </H1>
+  
+  <h1>
+    I Build Websites That<br>
+    <span class="gold">Bring Customers</span> &amp;<br>
+    <span class="cyan">Grow Businesses</span>
+  </h1>
+
+  <p class="subtitle">
+    Helping small businesses grow online with modern, high-converting websites that look premium and perform even better.
+  </p>
+
+  <div class="typing-wrap">
+    I'm a <span id="typing"></span><span class="typing-cursor"></span>
+  </div>
+
+  <div class="hero-btns">
+    <a href="#projects" class="btn-primary">View My Work</a>
+    <a href="https://wa.me/918408802188" class="btn-ghost">💬 WhatsApp Me</a>
+  </div>
+
+  <div class="hero-stats">
+    <div class="stat-item">
+      <div class="stat-num">10<span class="accent">+</span></div>
+      <div class="stat-label">Projects Done</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">100<span class="accent">%</span></div>
+      <div class="stat-label">Client Satisfaction</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">₹999<span class="accent">+</span></div>
+      <div class="stat-label">Starting Price</div>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-left">
+    <span class="section-label reveal">Why Choose Me</span>
+    <h2 class="section-title reveal reveal-delay-1">Websites Built to<br>Convert Visitors</h2>
+    <p class="section-desc reveal reveal-delay-2">
+      I'm Safwan pathan — a Web Developer &amp; Designer focused on building websites that are not just beautiful but also help businesses attract customers and increase trust.
+    </p>
+    <P>instagram post design, Blog writing, logo creation</p>
+    <div class="features reveal reveal-delay-3">
+      <div class="feature-card">
+        <span class="feature-icon">📱</span>
+        <div class="feature-title">Mobile Responsive</div>
+        <div class="feature-desc">Looks perfect on all screen sizes</div>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">⚡</span>
+        <div class="feature-title">Fast Loading</div>
+        <div class="feature-desc">Optimized for speed &amp; performance</div>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">🔍</span>
+        <div class="feature-title">SEO Friendly</div>
+        <div class="feature-desc">Rank higher on Google searches</div>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">💎</span>
+        <div class="feature-title">Premium UI</div>
+        <div class="feature-desc">Clean &amp; professional design</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-right reveal reveal-delay-2">
+    <div class="skills-wrap">
+      <h3 class="skills-title">Skills &amp; Expertise</h3>
+      <div class="skill-row">
+        <div class="skill-top"><span>HTML / CSS</span><span>95%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+      </div>
+      <div class="skill-row">
+        <div class="skill-top"><span>JavaScript</span><span>50%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="50"></div></div>
+      </div>
+       <div class="skill-row">
+        <div class="skill-top"><span>Python programming</span><span>50%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="50"></div></div>
+      </div>
+      <div class="skill-row">
+        <div class="skill-top"><span>UI / UX Design</span><span>88%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+      </div>
+      <div class="skill-row">
+        <div class="skill-top"><span>Logo Design</span><span>90%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+      </div>
+       <div class="skill-row">
+        <div class="skill-top"><span>Content writing</span><span>85%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+      </div>
+      <div class="skill-row">
+        <div class="skill-top"><span>SEO Optimization</span><span>70%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects-section" id="projects">
+  <div class="projects-header">
+    <div>
+      <span class="section-label reveal">Portfolio</span>
+      <h2 class="section-title reveal reveal-delay-1">Selected Projects</h2>
+    </div>
+    <p class="section-desc reveal reveal-delay-2" style="max-width:260px;font-size:14px">
+      Real work delivered for real clients with real results.
+    </p>
+  </div>
+
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <img src="web.jpg.png" class="project-img" alt="A1 Auto Care"
+        onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <div class="project-img-placeholder" style="display:none">🚗</div>
+      <div class="project-info">
+        <span class="project-tag">Automotive · Web Design</span>
+        <h3>A1 Auto Care</h3>
+        <p>Premium garage website with modern UI, service listings, and customer conversion focus.</p>
+        <a href="https://safwankhan88.github.io/a1autocare/" class="project-link" target="_blank">Live Demo</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal reveal-delay-1">
+      <img src="AYEZA.JPG.png" class="project-img" alt="Ayeza Mehendi"
+        onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <div class="project-img-placeholder" style="display:none">🌿</div>
+      <div class="project-info">
+        <span class="project-tag">Beauty · Branding</span>
+        <h3>Ayeza Mehendi</h3>
+        <p>Elegant brand website for a mehendi artist with portfolio showcase and booking focus.</p>
+        <a href="https://safwankhan88.github.io/ayezacones/" class="project-link" target="_blank">Live Demo</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section class="resume-section" id="resume">
+  <div class="resume-inner">
+    <span class="section-label reveal">My Background</span>
+    <h2 class="section-title reveal reveal-delay-1">Resume</h2>
+    <div class="resume-box reveal reveal-delay-2">
+      <img src="resume.jpg.jpeg" alt="Resume"
+        onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <div class="resume-placeholder" style="display:none">
+        <span class="icon">📄</span>
+        <p>Resume preview will appear here</p>
+      </div>
+    </div>
+    <a href="resume.pdf" download class="download-btn reveal reveal-delay-3">
+      ⬇ Download Resume
+    </a>
+  </div>
+</section>
+
+<!-- OFFER -->
+<section class="offer">
+  <div class="offer-inner">
+    <span class="section-label reveal">Pricing</span>
+    <h2 class="section-title reveal reveal-delay-1">Special Offer</h2>
+    <div class="offer-price reveal reveal-delay-2">
+      <sup>₹</sup>999<span style="font-size:0.4em;color:var(--muted);letter-spacing:0">onwards</span>
+    </div>
+    <p class="offer-desc reveal reveal-delay-3">
+      Get your complete professional business website starting at just ₹999. No hidden charges. 100% custom made for your business.
+    </p>
+    <div class="offer-features reveal">
+      <span class="offer-tag">✓ Mobile Responsive</span>
+      <span class="offer-tag">✓ SEO Optimized</span>
+      <span class="offer-tag">✓ Fast Delivery</span>
+      <span class="offer-tag">✓ Free Revisions</span>
+      <span class="offer-tag">✓ WhatsApp Support</span>
+    </div>
+    <a href="https://wa.me/918408802188" class="btn-primary reveal reveal-delay-1"
+      style="font-size:16px;padding:16px 36px">Get Started Now 🚀</a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <span class="section-label reveal">Get In Touch</span>
+  <h2 class="section-title reveal reveal-delay-1">Let's Work Together</h2>
+  <div class="contact-card reveal reveal-delay-2">
+    <p style="color:var(--muted);font-size:16px;line-height:1.8;max-width:420px;margin:0 auto 28px">
+      Have a project in mind? Let's talk. I respond fast and I'm here to help your business grow online.
+    </p>
+    <div class="contact-methods">
+      <a href="https://wa.me/918408802188" class="contact-btn">💬 Chat on WhatsApp</a>
+    </div>
+    <p style="color:var(--muted);font-size:13px;margin-top:20px">Usually replies within 30 minutes</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-logo">safwankhan448@gmail.com<span>.</span></div>
+  <p>© 2026 Safwan Pathan · Web Developer &amp; Designer</p>
+  <p style="font-size:13px;color:var(--muted)">Made with ❤️ in India</p>
+</footer>
+
+<!-- JAVASCRIPT -->
+<script src="script.js"></script>
+
+</body>
+</html>
